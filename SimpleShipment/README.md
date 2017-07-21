@@ -23,7 +23,7 @@ The user interface must use AngularJS, with Kendo UI providing the datagrid widg
 
 All shipment information must be accessed from an RESTful API.
 
-###Shipment API (backend) 
+### Shipment API (backend) 
 
 Please follow the instructions to setup a RESTful shipment API, which can safely be used for testing and prototyping.  
 
@@ -35,7 +35,7 @@ https://github.com/typicode/json-server
 * Run ``json-server https://warrantgroup.github.io/training/SimpleShipment/api.json``
 * Check for response in browser on ``http://localhost:3000``
 
-###User Interface (frontend) 
+### User Interface (frontend) 
 
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.
 
