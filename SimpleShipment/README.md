@@ -40,7 +40,7 @@ Documentation can be found at [https://github.com/typicode/json-server](https://
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.
 
 **AngularJS 1.6**  
-https://angularjs.org/
+[https://angularjs.org](https://angularjs.org)
 
 **Kendo UI 2017 for JQuery**  
 [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)  
@@ -52,4 +52,4 @@ https://angularjs.org/
 *Please ignore “Kendo for Angular” which refers to Angular version (2.x).*
 
 **Bootstap 3.37**  
-http://getbootstrap.com/
+[http://getbootstrap.com](http://getbootstrap.com)
