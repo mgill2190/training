@@ -27,7 +27,7 @@ All shipment information must be accessed from an RESTful API.
 
 Please follow the instructions to setup a RESTful shipment API, which can safely be used for testing and prototyping.  
 
-Documentation can be found at [https://github.com/typicode/json-server] 
+Documentation can be found at [https://github.com/typicode/json-server](https://github.com/typicode/json-server)  
 
 * Download [NodeJS](https://nodejs.org/en/download) and complete installation
 * Run ``npm install -g json-server`` to install a fake RESTful API. 
@@ -43,11 +43,11 @@ Please note Angular now uses semantic versioning, therefore the name AngularJS w
 https://angularjs.org/
 
 **Kendo UI 2017 for JQuery**  
-[https://www.telerik.com/kendo-ui]  
-[http://demos.telerik.com/kendo-ui]  
-[https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js]  
-[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-bootstrap.min.css]  
-[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.bootstrap.min.css]
+[https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)  
+[http://demos.telerik.com/kendo-ui](http://demos.telerik.com/kendo-ui)  
+[https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js](https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js)  
+[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-bootstrap.min.css](https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-bootstrap.min.css)  
+[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.bootstrap.min.css](https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.bootstrap.min.css)  
 
 *Please ignore “Kendo for Angular” which refers to Angular version (2.x).*
 
