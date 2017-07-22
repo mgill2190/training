@@ -22,7 +22,7 @@ Any changes to these shipment fields must be saved.
 
 Requirements
 ---
-The user interface must use AngularJS, Kendo UI must provide the datagrid widget and bootstrap must provides CSS styling for forms and inputs.
+The user interface must use AngularJS, Kendo UI for datagrid and bootstrap for CSS styling, forms and inputs.
 
 All shipment information must be accessed from and persisted to a RESTful API.
 
