@@ -4,13 +4,13 @@ Simple Shipment
 As a user I want to be able to view and edit shipments. I would like a paginated grid of shipments with the following columns, each column must be sortable and filterable. The default sort behaviour will be by ETA date ascending.
 
 
-* Reference (hyperlink to shipment information), 
+* Reference, 
 * Shipper Name
 * PO Reference
 * Port of Loading Location Name, 
 * Port of Discharge Location Name, 
 * Carrier Name
-* ETA date (formatted to dd-mm-yyyy)
+* ETA date (dd-mm-yyyy)
 
 I would like to click a shipment reference hyperlink on the grid to show a responsive HTML page of the shipment information (as per UI mockup). I want to be able to edit any shipment field, apart from the shipment reference which cannot be changed. 
 
@@ -23,19 +23,17 @@ The user interface must use AngularJS, with Kendo UI providing the datagrid widg
 
 All shipment information must be accessed from an RESTful API.
 
-### Shipment API (backend) 
+### Installation
 
-Please follow the instructions to setup a RESTful shipment API, which can safely be used for testing and prototyping.  
+You will need to install NodeJS, and clone our training repository from github.com. We will use Grunt (Task Runner) to automatically start a web server on [http://localhost:8000](http://localhost:8000), and RESTful API on [http://localhost:3000](http://localhost:3000) depending on port availability.
 
-Documentation can be found at [https://github.com/typicode/json-server](https://github.com/typicode/json-server)  
+* Install [NodeJS](https://nodejs.org/en/download)
+* Install [Git](https://git-scm.com/downloads)
+* Run ``git clone https://github.com/warrantgroup/training.git && cd training/SimpleShipment``
+* Run ``npm install``
+* Run ``grunt``
 
-* Download [NodeJS](https://nodejs.org/en/download) and complete installation
-* Run ``npm install -g json-server`` to install a fake RESTful API. 
-* Run ``json-server https://warrantgroup.github.io/training/SimpleShipment/api.json``
-* Check for a valid response in browser on ``http://localhost:3000``
-
-
-### User Interface (frontend) 
+### Resources
 
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.
 
@@ -45,10 +43,6 @@ Please note Angular now uses semantic versioning, therefore the name AngularJS w
 **Kendo UI 2017 for JQuery**  
 [https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)  
 [http://demos.telerik.com/kendo-ui](http://demos.telerik.com/kendo-ui)  
-[https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js](https://kendo.cdn.telerik.com/2017.2.621/js/kendo.all.min.js)  
-[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-bootstrap.min.css](https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.common-bootstrap.min.css)  
-[https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.bootstrap.min.css](https://kendo.cdn.telerik.com/2017.2.621/styles/kendo.bootstrap.min.css)  
-
 *Please ignore “Kendo for Angular” which refers to Angular version (2.x).*
 
 **Bootstap 3.37**  
