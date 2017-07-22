@@ -51,6 +51,6 @@ Please note Angular now uses semantic versioning, therefore the name AngularJS w
 **Bootstap 3.37**  
 [http://getbootstrap.com](http://getbootstrap.com)
 
-**JSON Server (RESTful API)**
+**JSON Server**
 [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com)
 [https://github.com/typicode/json-server](https://github.com/typicode/json-server)

@@ -11,7 +11,7 @@ app.config(function ($routeProvider) {
             templateUrl: "templates/search.html",
             controller: 'SearchCtrl'
         })
-        .when("/shipment", {
+        .when("/shipment/:reference", {
             templateUrl: "templates/shipment.html",
             controller: 'ShipmentCtrl'
         })
