@@ -1,7 +1,7 @@
 Simple Shipment
 ====
 
-As a user I want to be able to view and edit shipments. I would like a paginated grid of shipments with the following columns, each column must be sortable and filterable. The default sort behaviour will be by ETA date ascending.
+As a user I want to be able to view and edit shipments. I would like a grid of shipments with the following columns, each column must be sortable. The default sort column will be ETA date (ascending).
 
 
 * Reference, 
@@ -12,20 +12,23 @@ As a user I want to be able to view and edit shipments. I would like a paginated
 * Carrier Name
 * ETA date (dd-mm-yyyy)
 
-I would like to click a shipment reference hyperlink on the grid to show a responsive HTML page of the shipment information (as per UI mockup). I want to be able to edit any shipment field, apart from the shipment reference which cannot be changed. 
+I would like to click a shipment reference hyperlink on the grid to show a responsive HTML page of the shipment information (as per UI mockup). 
+
+![UI Mockup](https://s3-eu-west-1.amazonaws.com/warrant-group-files/training/Simple+Shipments+UI.png "UI Mockup")
+
+I want to be able to edit any shipment field, apart from the shipment reference which cannot be changed. 
 
 Any changes to these shipment fields must be saved.
 
 Requirements
 ---
-
-The user interface must use AngularJS, Kendo UI provides the datagrid widget and bootstrap provides CSS styling for forms and inputs.
+The user interface must use AngularJS, Kendo UI must provide the datagrid widget and bootstrap must provides CSS styling for forms and inputs.
 
 All shipment information must be accessed from and persisted to a RESTful API.
 
 ### Installation
 
-You will need to install NodeJS, and clone [training repository](https://github.com/warrantgroup/training). Grunt (Task Runner) will automatically start a HTTP web server on [http://localhost:8000](http://localhost:8000), and RESTful API on [http://localhost:3000](http://localhost:3000) depending on port availability.
+You will need to install NodeJS, and clone the [training repository](https://github.com/warrantgroup/training). Grunt (Task Runner) will automatically start a HTTP web server on [http://localhost:8000](http://localhost:8000), and RESTful API on [http://localhost:3000](http://localhost:3000) depending on port availability.
 
 * Install [NodeJS](https://nodejs.org/en/download)
 * Install [Git](https://git-scm.com/downloads)
@@ -47,3 +50,7 @@ Please note Angular now uses semantic versioning, therefore the name AngularJS w
 
 **Bootstap 3.37**  
 [http://getbootstrap.com](http://getbootstrap.com)
+
+**JSON Server (RESTful API)**
+[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com)
+[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
