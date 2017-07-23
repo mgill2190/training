@@ -5,11 +5,11 @@ As a user I want to be able to view and edit shipments. I would like a grid of s
 
 
 * Reference, 
-* Shipper Name
+* Shipper
 * PO Reference
-* Port of Loading Location Name, 
-* Port of Discharge Location Name, 
-* Carrier Name
+* Port of Loading
+* Port of Discharge 
+* Carrier
 * ETA date (dd-mm-yyyy)
 
 I would like to click a shipment reference hyperlink on the grid to show a shipment information page (as per UI mockup). 
@@ -24,7 +24,13 @@ Requirements
 ---
 The user interface must use AngularJS, Kendo UI for datagrid and bootstrap for CSS styling, forms and inputs.
 
-All shipment information must be accessed from and persisted to a RESTful API.
+* Must use [AngularJS 1.4.6](https://angularjs.org)
+* Muse use [Bootstap 3](http://getbootstrap.com)
+* Must use [Kendo UI for JQuery datagrid](http://demos.telerik.com/kendo-ui/grid/angular)
+* Must interact with a [RESTful server](https://github.com/typicode/json-server) (GET, PUT)
+* You must use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server
+
+A [skeleton AngularJS application](/app) is included in the repository with all dependancies and libraries.
 
 ### Installation
 
@@ -36,21 +42,7 @@ You will need to install NodeJS, and clone the [training repository](https://git
 * Run ``npm install``
 * Run ``grunt``
 
-### Resources
+### Notes
 
-Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.
-
-**AngularJS 1.x**  
-[https://angularjs.org](https://angularjs.org)
-
-**Kendo UI for JQuery**  
-[https://www.telerik.com/kendo-ui](https://www.telerik.com/kendo-ui)  
-[http://demos.telerik.com/kendo-ui](http://demos.telerik.com/kendo-ui)  
-*Please ignore “Kendo for Angular” which refers to Angular version (2.x).*
-
-**Bootstap 3.x**  
-[http://getbootstrap.com](http://getbootstrap.com)
-
-**JSON Server**
-[https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com)
-[https://github.com/typicode/json-server](https://github.com/typicode/json-server)
+Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.  
+Please ignore “Kendo for Angular” which refers to Angular version (2.x).

@@ -1,4 +1,6 @@
-var app = angular.module("app", ["kendo.directives", "ngRoute"]);
+var app = angular.module("app", ["kendo.directives", "ngRoute", "ngResource"]);
+
+app.value('api_url', 'http://localhost:3000/shipments');
 
 /**
  * ngRoute allows routing to different pages in application
