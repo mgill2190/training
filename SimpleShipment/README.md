@@ -43,10 +43,10 @@ You will need to install NodeJS, and clone the [training repository](https://git
 
 ### Finished
 
-When the exercise has been completed, please make ZIP of the ``SimpleShipment`` directory and send to ``it@warrant-group.com``
+When the exercise has been completed, please create a ZIP your git repository (as below) and send to ``it@warrant-group.com``
 
 ``bash
-tar -c --exclude .git -f - SimpleShipment | gzip > ShipmentShipment.tar.gz
+git archive HEAD --format=zip > SimpleShipment.zip
 ``
 
 ### Notes
