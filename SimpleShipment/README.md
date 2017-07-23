@@ -12,7 +12,7 @@ As a user I want to be able to edit shipments. I would like to view a list shipm
 * Carrier
 * ETA
 
-I want to click a hyperlink on each reference to show a shipment page (as per UI mockup) and be able to edit any shipment field, apart from the shipment reference which cannot be changed. Any changes to these shipment fields can be saved.
+I want to click a hyperlink on each reference to show a shipment page (as per UI mockup) and be able to edit any shipment field. Any changes to these shipment fields can be saved, apart from the shipment reference which cannot be changed.
 
 ![UI Mockup](https://s3-eu-west-1.amazonaws.com/warrant-group-files/training/SimpleShipment+Mock+UI.png "UI Mockup")
 
