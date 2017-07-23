@@ -25,7 +25,7 @@ Requirements
 
 * Must use [AngularJS 1.x](https://angularjs.org)
 * Must use [Bootstrap 3.x](http://getbootstrap.com)
-* Must use [Kendo UI for JQuery datagrid](http://demos.telerik.com/kendo-ui/grid/angular)
+* Must use [Kendo UI for JQuery](http://demos.telerik.com/kendo-ui/grid/angular) datagrid
 * Must interact with a [RESTful server](https://github.com/typicode/json-server) (GET, PUT)
 * Optionally use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server
 
