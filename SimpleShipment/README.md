@@ -41,6 +41,10 @@ You will need to install NodeJS, and clone the [training repository](https://git
 * Run ``npm install``
 * Run ``grunt``
 
+### Finished
+
+When the exercise has been completed, please make ZIP of the ``SimpleShipment`` directory and send to ``it@warrant-group.com``
+
 ### Notes
 
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.  
