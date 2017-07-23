@@ -24,7 +24,7 @@ Requirements
 ---
 
 * Must use [AngularJS 1.x](https://angularjs.org)
-* Muse use [Bootstrap 3.x](http://getbootstrap.com)
+* Must use [Bootstrap 3.x](http://getbootstrap.com)
 * Must use [Kendo UI for JQuery datagrid](http://demos.telerik.com/kendo-ui/grid/angular)
 * Must interact with a [RESTful server](https://github.com/typicode/json-server) (GET, PUT)
 * You must use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server
