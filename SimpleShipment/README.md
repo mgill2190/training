@@ -10,7 +10,7 @@ As a user I want to be able to edit shipments. I would like to view a list shipm
 * Port of Loading
 * Port of Discharge 
 * Carrier
-* ETA date (must be UK date format dd-mm-yyyy)  
+* ETA date (format to dd-mm-yyyy)  
 
 I want to click a hyperlink on each reference to show a shipment page (as per UI mockup) and be able to edit any shipment field, apart from the shipment reference which cannot be changed. Any changes to these shipment fields can be saved.
 
@@ -50,3 +50,4 @@ git archive HEAD --format=zip > SimpleShipment.zip
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.  
 Please ignore “Kendo for Angular” which refers to Angular version (2.x).  
 Shipment `ID` and `reference` are interchangeable.
+All dates must be formatted to dd-mm-yyyy
