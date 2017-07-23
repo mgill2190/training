@@ -30,7 +30,7 @@ The user interface must use AngularJS, Kendo UI for datagrid and bootstrap for C
 * Must interact with a [RESTful server](https://github.com/typicode/json-server) (GET, PUT)
 * You must use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server
 
-A [skeleton AngularJS application](training/SimpleShipment/app) is included in the repository with all dependancies and libraries.
+A [skeleton AngularJS application](app) is included in the repository with all dependancies and libraries.
 
 ### Installation
 
