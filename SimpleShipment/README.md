@@ -22,7 +22,6 @@ Any changes to these shipment fields must be saved.
 
 Requirements
 ---
-The user interface must use AngularJS, Kendo UI for datagrid and bootstrap for CSS styling, forms and inputs.
 
 * Must use [AngularJS 1.x](https://angularjs.org)
 * Muse use [Bootstap 3.x](http://getbootstrap.com)
