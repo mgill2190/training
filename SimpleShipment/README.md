@@ -52,5 +52,5 @@ git archive HEAD --format=zip > SimpleShipment.zip
 ### Notes
 
 Please note Angular now uses semantic versioning, therefore the name AngularJS will refer to version 1.x, while Angular refers to any version 2.x and above.  
-Please ignore “Kendo for Angular” which refers to Angular version (2.x).
+Please ignore “Kendo for Angular” which refers to Angular version (2.x).  
 Shipment `ID` and `reference` are interchangeable.
