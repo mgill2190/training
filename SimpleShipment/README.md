@@ -4,7 +4,7 @@ Simple Shipment
 As a user I want to be able to edit shipments. I would like to view a list shipments in a grid with the following columns, each column must be sortable.
 
 
-* Reference
+* Reference (ID)
 * Shipper
 * PO Reference
 * Port of Loading
