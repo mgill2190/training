@@ -1,2 +1,2 @@
 * [Simple Shipment](SimpleShipment) 
-  Training exercise to create simple shipment application using Kendo UI datagrid, and interacting with a RESTful server.
+  Create a simple shipment application using Kendo UI datagrid, bootstrap forms and interacting with a RESTful server.
