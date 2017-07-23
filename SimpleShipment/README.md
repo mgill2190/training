@@ -40,10 +40,10 @@ You will need to install NodeJS, Git and clone the [training repository](https:/
 
 ### Finished
 
-When the exercise has been completed, please create a zipped git archive (as below) and send to ``it@warrant-group.com``
+When the exercise has been completed, please create a zip, ingoring node_modules directory (as below) and send to ``it@warrant-group.com``
 
 ``
-git archive HEAD --format=zip > SimpleShipment.zip
+zip -r9 SimpleShipment.zip SimpleShipment/* -x "*/\node_modules/*"
 ``
 
 ### Notes
