@@ -10,7 +10,7 @@ As a user I want to be able to edit shipments. I would like to view a list shipm
 * Port of Loading
 * Port of Discharge 
 * Carrier
-* ETA date (dd-mm-yyyy)  
+* ETA date (must be UK date format dd-mm-yyyy)  
 
 I want to click a hyperlink on each reference to show a shipment page (as per UI mockup) and be able to edit any shipment field, apart from the shipment reference which cannot be changed. Any changes to these shipment fields can be saved.
 
