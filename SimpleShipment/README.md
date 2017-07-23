@@ -33,7 +33,7 @@ A [skeleton AngularJS application](app) is included in the repository with all d
 
 ### Installation
 
-You will need to install NodeJS, and clone the [training repository](https://github.com/warrantgroup/training). Grunt (Task Runner) will automatically start a HTTP web server on [http://localhost:8000](http://localhost:8000), and RESTful API on [http://localhost:3000](http://localhost:3000) depending on port availability.
+You will need to install NodeJS, Git and clone the [training repository](https://github.com/warrantgroup/training). Grunt (Task Runner) will automatically start a HTTP web server on [http://localhost:8000](http://localhost:8000), and RESTful API on [http://localhost:3000](http://localhost:3000) depending on port availability.
 
 * Install [NodeJS](https://nodejs.org/en/download)
 * Install [Git](https://git-scm.com/downloads)
