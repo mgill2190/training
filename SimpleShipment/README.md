@@ -4,7 +4,7 @@ Simple Shipment
 As a user I want to be able to view and edit shipments. I would like a grid of shipments with the following columns, each column must be sortable. The default sort column will be ETA date (ascending).
 
 
-* Reference, 
+* Reference
 * Shipper
 * PO Reference
 * Port of Loading
@@ -24,8 +24,8 @@ Requirements
 ---
 The user interface must use AngularJS, Kendo UI for datagrid and bootstrap for CSS styling, forms and inputs.
 
-* Must use [AngularJS 1.4.6](https://angularjs.org)
-* Muse use [Bootstap 3](http://getbootstrap.com)
+* Must use [AngularJS 1.x](https://angularjs.org)
+* Muse use [Bootstap 3.x](http://getbootstrap.com)
 * Must use [Kendo UI for JQuery datagrid](http://demos.telerik.com/kendo-ui/grid/angular)
 * Must interact with a [RESTful server](https://github.com/typicode/json-server) (GET, PUT)
 * You must use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server
