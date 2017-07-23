@@ -1,7 +1,7 @@
 Simple Shipment
 ====
 
-As a user I want to be able to view and edit shipments. I would like a grid of shipments with the following columns, each column must be sortable. The default sort column will be ETA date (ascending).
+As a user I want to be able to view and edit shipments. I would like a grid of shipments with the following columns, each column must be sortable.
 
 
 * Reference
