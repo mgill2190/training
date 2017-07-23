@@ -16,8 +16,8 @@ I would like to click a hyperlink on each reference to show a shipment informati
 
 ![UI Mockup](https://s3-eu-west-1.amazonaws.com/warrant-group-files/training/SimpleShipment+Mock+UI.png "UI Mockup")
 
-* I want to be able to edit any shipment input field, apart from the shipment reference which cannot be changed. 
-* I want to save any changes to these shipment fields.
+I want to be able to edit any shipment input field, apart from the shipment reference which cannot be changed.  
+I want to save any changes to these shipment fields.
 
 Requirements
 ---
