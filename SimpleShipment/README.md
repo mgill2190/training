@@ -1,7 +1,7 @@
 Simple Shipment
 ====
 
-As a user I want to be able to view and edit shipments. I would like a grid of shipments with the following columns, each column must be sortable.
+As a user I want to be able to view and edit shipments. I would like to view a list shipments in a grid with the following columns, each column must be sortable.
 
 
 * Reference
@@ -12,7 +12,7 @@ As a user I want to be able to view and edit shipments. I would like a grid of s
 * Carrier
 * ETA date (dd-mm-yyyy)
 
-I would like to click a shipment reference hyperlink on the grid to show a shipment information page (as per UI mockup). 
+I would like to click a hyperlink on each reference to show a shipment information page (as per UI mockup). 
 
 ![UI Mockup](https://s3-eu-west-1.amazonaws.com/warrant-group-files/training/SimpleShipment+Mock+UI.png "UI Mockup")
 
