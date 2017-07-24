@@ -33,6 +33,7 @@ app.controller("SearchCtrl", function ($scope) {
  * and persist any changes to remote API
  *
  * @see http://getbootstrap.com/css/#forms
+ * @see https://docs.angularjs.org/api/ngResource/service/$resource
  */
 app.controller("ShipmentCtrl", function ($scope) {
     $scope.title = 'Shipment';
