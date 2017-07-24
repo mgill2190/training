@@ -38,6 +38,8 @@ You will need to install NodeJS, Git and clone the [training repository](https:/
 * Run ``npm install``
 * Run ``grunt``
 
+If grunt is not found, please run ``npm install -g grunt-cli`` to install grunt-cli globally.
+
 ### Finished
 
 When the exercise has been completed, please create a zip, ignoring node_modules directory (as below) and send to ``it@warrant-group.com``
