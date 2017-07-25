@@ -26,7 +26,7 @@ Requirements
 * Optionally use AngularJS [ngRoute](https://docs.angularjs.org/api/ngRoute) for routing, and [ngResource](https://docs.angularjs.org/api/ngResource/service/$resource) to interact with RESTful server  
 * All dates must be formatted to dd-mm-yyyy
 
-A [skeleton AngularJS application](app) is included with all dependancies and libraries.
+A [skeleton AngularJS application](app) is included with all dependencies and libraries.
 
 ### Installation
 
