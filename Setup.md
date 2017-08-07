@@ -31,9 +31,6 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
     $ git config --global credential.helper osxkeychain
 
-
-## Install Composer
-
 ## Install Composer
 
     $ curl -sS https://getcomposer.org/installer | php
