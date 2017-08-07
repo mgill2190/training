@@ -33,7 +33,7 @@ Our current stack is as follows
 • Elasticsearch 1.5.2  
 • Amazon Elastic Beanstalk, EC2 and RDS (Production instances)  
 
-We are currently using PHPStorm IDE (download the demo, you will get a full license when you start) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks.
+We are currently using [PHPStorm IDE](https://www.jetbrains.com/phpstorm/) (download the demo, and request a full license from our team) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use either docker, vagrant or MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks
 
 You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
