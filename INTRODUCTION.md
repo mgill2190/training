@@ -37,7 +37,13 @@ You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
 ## Github
 
-In addition we use github.com and git for source code versioning, create a free github.com create a repository, have a play committing files and creating branches either on command line or through PHPStorm. We follow the GitHub flow branching model, worth looking as it discusses branching, and dealing with pull requests.
+In addition we use github.com and git for source code versioning, create a free github.com create a repository, have a play committing files and creating branches either on command line or through PHPStorm. 
+
+We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), worth looking as it discusses branching, and dealing with pull requests.
+
+- We create start new work in feature branches
+- Create pull requests for code review, once accepted feature branches can be merged to ``develop`` branch
+- Once ``develop`` is stable, we merge to ``master`` branch and CI (continous intergration) servers automatically deploy.
 
 Backend
 
