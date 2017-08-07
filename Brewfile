@@ -1,26 +1,23 @@
-tap caskroom/cask
-tap caskroom/homebrew-versions
-tap phinze/cask
+cask_args appdir: '/Applications'
+tap 'caskroom/homebrew-cask' || true
 
 update
 upgrade brew-cask
 cleanup
 cask cleanup
 
-install vim
-install curl
-install wget
-install phpunit
-install brew-cask
+brew 'vim'
+brew 'curl'
+brew 'wget'
+brew 'phpunit'
+brew 'brew-cask'
 
-cask install phpstorm
-cask install navicat-for-mysql
-cask install docker
-cask install google-chrome
+cask 'phpstorm'
+cask 'navicat-for-mysql'
+cask 'google-chrome'
 
-cask install alfred
-cask install awscli
-cask install cyberduck
-cask install atom-beta
-cask install dropbox
-cask install filezilla
+cask 'docker'
+cask 'alfred'
+cask 'awscli'
+cask 'cyberduck'
+cask 'atom-beta'
