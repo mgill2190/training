@@ -40,7 +40,7 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
     $ brew install composer
 
-## Node.js
+## Install Node.js
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
 
@@ -61,13 +61,13 @@ Node modules are installed locally in the `node_modules` folder of each project 
   npm install -g grunt-cli
 ```   
 
-## MAMP PRO
+## Install MAMP PRO
 
 MAMP (apache, mysql, php) is commercial, professional grade version of the classic local server environment, allowing multiple versions of PHP and configuration of virtual hosts.
 
     $ brew cask install mamp
     
-Add the following to your `~/.bash_profile' to ensure command line is using correct PHP binary.
+Add the following to your ``~/.bash_profile`' to ensure command line is using correct PHP binary.
 
 ```bash
 # Latest version of MAMP PRO PHP binaries are always used
