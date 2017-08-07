@@ -45,10 +45,10 @@ You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
 **Frontend**
 
-• [AngularJS Documentation](https://docs.angularjs.org)
-• [AngularJS Phonecat Tutorial](https://docs.angularjs.org/tutorial)
-• [Kendo UI AngularJS Integration](http://docs.telerik.com/kendo-ui/AngularJS/introduction)
-• [Kendo UI Demos](http://demos.telerik.com/kendo-ui) (Browse the demo code, with particular attention to the AngularJS examples)
+• [AngularJS Documentation](https://docs.angularjs.org)  
+• [AngularJS Phonecat Tutorial](https://docs.angularjs.org/tutorial)  
+• [Kendo UI AngularJS Integration](http://docs.telerik.com/kendo-ui/AngularJS/introduction)  
+• [Kendo UI Demos](http://demos.telerik.com/kendo-ui) (Browse the demo code, with particular attention to the AngularJS examples)  
 
 ## Github
 
