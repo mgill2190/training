@@ -55,26 +55,17 @@ Install [Node.js](http://nodejs.org/) with Homebrew:
     
 The formula also installs the [npm](https://npmjs.org/) package manager. However, as suggested by the Homebrew output, we need to add `/usr/local/share/npm/bin` to our path so that npm-installed modules with executables will have them picked up.
 
-To do so, add this line to your `~/.path` file, before the `export PATH` line:
+To do so, add this line to your `~/.bash_profile` file, before the `export PATH` line:
 
 ```bash
 PATH=/usr/local/share/npm/bin:$PATH
 ```
-        
-Open a new terminal for the `$PATH` changes to take effect.
 
-We also need to tell npm where to find the Xcode Command Line Tools, by running:
+Node modules are installed locally in the `node_modules` folder of each project by default, but worth installing [Grunt](http://gruntjs.com/) globally
 
-    $ sudo xcode-select -switch /usr/bin
-
-(If Xcode Command Line Tools were installed by Xcode, try instead:)
-
-    $ sudo xcode-select -switch /Applications/Xcode.app/Contents/Developer
-
-Node modules are installed locally in the `node_modules` folder of each project by default, but there are at least two that are worth installing globally. Those are [CoffeeScript](http://coffeescript.org/) and [Grunt](http://gruntjs.com/):
-
-    $ npm install -g coffee-script
-    $ npm install -g grunt-cli
+```bash
+  npm install -g grunt-cli
+```   
     
 ## Install everything
 
