@@ -5,5 +5,5 @@
 
 ## Development
 
-* (Development setup)[SETUP.md] which guides installing the tools, and customizations the teams have made to their environments.  
-* (Introduction)[INTRODUCTION.md] which gives a brief overview on our environment, and details some basic courses to complete before working on production systems
+* [Development setup](SETUP.md) which guides installing the tools, and customizations the teams have made to their environments.  
+* [Introduction](INTRODUCTION.md) which gives a brief overview on our environment, and details some basic courses to complete before working on production systems
