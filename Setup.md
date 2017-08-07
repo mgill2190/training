@@ -107,7 +107,8 @@ export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
 A ``Brewfile`` exists in the training repository which can be used to all tools
 
     $ git clone https://github.com/warrantgroup/training.git
-    $ cd training && brew bundle
+    $ cd training
+    $ brew bundle
     
 Alternatively this can be done manually:    
 
