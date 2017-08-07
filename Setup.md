@@ -2,7 +2,7 @@
 
 ## XCode Command Line Tools
 
-Install XCode's command line tools.
+Install XCode's CLI
 
 ```bash
 xcode-select --install
