@@ -6,7 +6,7 @@
 
 Your environment profile is located in `~/.bash_profile`
 
-- `export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"`
+- `export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"` - ensure packages installed by homebrew are evaluated first
 - `ulimit -n 10240` - bumps the maximum number of file descriptors you can have open on your computer.
   There's no purpose for the default limit, especially on SSDs.
 - `export JOBS=max` - tells `npm` to compile and install all your native addons in parallel and not sequentially.
