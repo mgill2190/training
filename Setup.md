@@ -47,7 +47,7 @@ git config --global credential.helper osxkeychain
 
 ## Install everything
 
-``bash
+```bash
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
