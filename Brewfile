@@ -1,11 +1,6 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-cask' || true
 
-update
-upgrade brew-cask
-cleanup
-cask cleanup
-
 brew 'vim'
 brew 'curl'
 brew 'wget'
