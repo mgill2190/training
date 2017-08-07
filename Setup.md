@@ -27,13 +27,22 @@ xcodebuild -license
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 ```
 
+## Git
+
+```bash
+brew install git
+```
+
+Define your Git user (should be the same name and email you use for GitHub):
+
+```bash
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
+```
+
 ## Install everything
 
 ``bash
-brew install git
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@youremail.com"
-
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
