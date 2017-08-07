@@ -89,7 +89,7 @@ ulimit -n 10240
 export JOBS=max
 
 # Allow composer to run without any PHP memory limits
-alias composer='php -d "memory_limit=-1" /usr/local/bin/composer
+alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
 
 # Latest version of MAMP PRO PHP binaries are always used
 PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`;
