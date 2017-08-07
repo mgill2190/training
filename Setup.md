@@ -1,20 +1,5 @@
 # Development Setup #
 
-- Be careful when using `sudo`, it deserves respect and attention.
-
-## Environment Profile
-
-Your environment profile is located in `~/.bash_profile`. Add the following
-
-```bash
-# Add local paths
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
-# Bump the maximum number of file descriptors
-ulimit -n 10240
-# Improve NPM compile and install times
-export JOBS=max
-```
-
 ## XCode Command Line Tools
 
 Install XCode's command line tools.
@@ -89,6 +74,26 @@ brew cask install atom-beta
 brew cask install dropbox
 brew cask install filezilla
 brew cask install mamp
+```
+
+## Environment Profile
+
+Your environment profile is located in `~/.bash_profile`. Please edit and add the following
+
+```bash
+# Add local paths
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+# Bump the maximum number of file descriptors
+ulimit -n 10240
+# Improve NPM compile and install times
+export JOBS=max
+
+# Allow composer to run without any PHP memory limits
+alias composer='php -d "memory_limit=-1" /usr/local/bin/composer
+
+# Latest version of MAMP PRO PHP binaries are always used
+PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`;
+export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
 ```
 
 # Introduction Courses
