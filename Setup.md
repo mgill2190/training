@@ -104,6 +104,12 @@ export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
     
 ## Install Tools
 
+A ``Brewfile`` exists in the training repository which can be used to all tools
+
+    $ brew bundle
+    
+Alternatively this can be done manually:    
+
 ```bash
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
