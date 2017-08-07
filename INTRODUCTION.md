@@ -23,13 +23,13 @@ https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1
 
 Our current stack is as follows
 
-• PHP 7.0.10
-• AngularJS 1.4.7
-• Symfony Framework 3.2
-• Kendo UI 2017
-• MySQL 5.6.28
-• Elasticsearch 1.5.2
-• Amazon Elastic Beanstalk, EC2 and RDS (Production instances)
+• PHP 7.0.10  
+• AngularJS 1.4.7  
+• Symfony Framework 3.2  
+• Kendo UI 2017  
+• MySQL 5.6.28  
+• Elasticsearch 1.5.2  
+• Amazon Elastic Beanstalk, EC2 and RDS (Production instances)  
 
 We are currently using PHPStorm IDE (download the demo, you will get a full license when you start) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks.
 
