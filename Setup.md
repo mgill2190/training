@@ -8,11 +8,11 @@ xcodebuild -license
 ```
 ## Environment Profile
 
-Your environment profile is located in `~/.bash_profile`. 
+Your environment profile is located in `~/.bash_profile`.
 
-    $ vi ~/.bash_profile
-    $ source ~/.bash_profile
+    1. $ vi ~/.bash_profile
 
+2. Add the following:
 ```bash
 
 # Terminal Colors
@@ -31,6 +31,8 @@ alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
 # Install homebrew casks into applications
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ```
+
+   3.  ``$ source ~/.bash_profile``
 
 ## Install Homebrew
 [Homebrew](http://brew.sh/) is OS X's "missing" package manager.
