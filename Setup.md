@@ -116,7 +116,7 @@ Alternatively this can be done manually:
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
 
-brew install vim brew -HEAD --env=std
+brew install vim
 brew install curl
 brew install wget
 brew install phpunit
