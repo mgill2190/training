@@ -29,38 +29,46 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ## Install everything
 
-```bash
+``bash
+brew install git
+git config --global user.name "Your Name Here"
+git config --global user.email "your_email@youremail.com"
 
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
+brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 brew install vim
 brew install git
 brew install curl
-brew cask install phpstorm
-brew cask install docker
-brew cask install virtualbox
-brew cask install docker
 brew cask install node
-brew cask install awscli
+brew cask install phpstorm
+brew cask install navicat-for-mysql
+brew cask install docker
 brew cask install google-chrome
-brew cask install cyberduck
+
 brew cask install alfred
+brew cask install virtualbox
+brew cask install awscli
+brew cask install cyberduck
 brew cask install atom-beta
 brew cask install dropbox
 brew cask install filezilla
+brew cask install mamp
 ```
 
-PHPStorm  
-Navicat  
-XTerm  
-<a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Google Chrome</a>
-MAMP PRO
-Spark
-Docker
+# Introduction Courses
 
+# Basic Javascript
 https://www.codecademy.com/courses/learn-javascript
 
+# Intermediate Javascript
 https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/2.
 
+# Advanced Javascript (AngularJS)
 https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1#
+
+# Basic PHP
+https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1
+
+
