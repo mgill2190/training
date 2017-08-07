@@ -33,21 +33,18 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 ## Install Git
 
-```bash
-brew install git
-```
+    $ brew install git
 
 Define your Git user (should be the same name and email you use for GitHub):
 
-```bash
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@youremail.com"
-```
+    $ git config --global user.name "Your Name Here"
+    $ git config --global user.email "your_email@youremail.com"
+
 To push code to your GitHub repositories, its recommended to use HTTPS method (versus SSH). So you don't have to type your username and password everytime, enable Git password caching:
 
-```bash
-git config --global credential.helper osxkeychain
-```
+
+    $ git config --global credential.helper osxkeychain
+
 
 ## Node.js
 
