@@ -104,6 +104,10 @@ export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
     
 ## Install Tools
 
+Update brew
+
+    $ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
+
 A ``Brewfile`` exists in the training repository which can be used to all tools
 
     $ git clone https://github.com/warrantgroup/training.git
@@ -115,7 +119,6 @@ Alternatively this can be done manually:
 ```bash
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions
-brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 brew install vim
 brew install curl
