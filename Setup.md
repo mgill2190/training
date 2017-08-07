@@ -130,8 +130,6 @@ brew cask install alfred
 brew cask install awscli
 brew cask install cyberduck
 brew cask install atom-beta
-brew cask install dropbox
-brew cask install filezilla
 ```
 
 # Introduction Courses
