@@ -67,7 +67,7 @@ MAMP (apache, mysql, php) is commercial, professional grade version of the class
 
     $ brew cask install mamp
     
-Add the following to your ``~/.bash_profile`' to ensure command line is using correct PHP binary.
+Add the following to your ``~/.bash_profile`` to ensure command line is using correct PHP binary.
 
 ```bash
 # Latest version of MAMP PRO PHP binaries are always used
