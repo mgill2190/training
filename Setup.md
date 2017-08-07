@@ -82,7 +82,6 @@ brew cask install docker
 brew cask install google-chrome
 
 brew cask install alfred
-brew cask install virtualbox
 brew cask install awscli
 brew cask install cyberduck
 brew cask install atom-beta
