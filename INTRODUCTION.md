@@ -33,9 +33,11 @@ Our current stack is as follows
 
 We are currently using PHPStorm IDE (download the demo, you will get a full license when you start) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks.
 
-In addition we use github.com and git for source code versioning, create a free github.com create a repository, have a play committing files and creating branches either on command line or through PHPStorm. We follow the GitHub flow branching model, worth looking as it discusses branching, and dealing with pull requests.
+You can full reference to development enviroment setup in [SETUP.md](SETUP.md)
 
-Some recommendations for learning
+## Github
+
+In addition we use github.com and git for source code versioning, create a free github.com create a repository, have a play committing files and creating branches either on command line or through PHPStorm. We follow the GitHub flow branching model, worth looking as it discusses branching, and dealing with pull requests.
 
 Backend
 
