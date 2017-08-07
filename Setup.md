@@ -10,7 +10,8 @@ xcodebuild -license
 
 Your environment profile is located in `~/.bash_profile`. 
 
-Please ``vi ~/.bash_profile`` and add the following
+$ vi ~/.bash_profile
+$ source ~/.bash_profile
 
 ```bash
 
