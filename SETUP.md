@@ -33,7 +33,7 @@ alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ```
 
-$ source ~/.bash_profile
+    $ source ~/.bash_profile
 
 ## Install Homebrew
 [Homebrew](http://brew.sh/) is OS X's "missing" package manager.
