@@ -32,6 +32,14 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
     $ git config --global credential.helper osxkeychain
 
 
+## Install Composer
+
+## Install Composer
+
+    $ curl -sS https://getcomposer.org/installer | php
+    $ sudo mv composer.phar /usr/local/bin/composer
+
+
 ## Node.js
 
 Install [Node.js](http://nodejs.org/) with Homebrew:
