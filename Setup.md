@@ -60,6 +60,20 @@ Node modules are installed locally in the `node_modules` folder of each project 
 ```bash
   npm install -g grunt-cli
 ```   
+
+## MAMP PRO
+
+MAMP (apache, mysql, php) is commercial, professional grade version of the classic local server environment, allowing multiple versions of PHP and configuration of virtual hosts.
+
+    $ brew cask install mamp
+    
+Add the following to your `~/.bash_profile' to ensure command line is using correct PHP binary.
+
+```bash
+# Latest version of MAMP PRO PHP binaries are always used
+PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`;
+export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
+```
     
 ## Install Tools
 
@@ -84,7 +98,6 @@ brew cask install cyberduck
 brew cask install atom-beta
 brew cask install dropbox
 brew cask install filezilla
-brew cask install mamp
 ```
 
 ## Environment Profile
@@ -101,10 +114,6 @@ export JOBS=max
 
 # Allow composer to run without any PHP memory limits
 alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
-
-# Latest version of MAMP PRO PHP binaries are always used
-PHP_VERSION=`ls /Applications/MAMP/bin/php/ | sort -n | tail -1`;
-export PATH=/Applications/MAMP/bin/php/${PHP_VERSION}/bin:$PATH;
 ```
 
 # Introduction Courses
