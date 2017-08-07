@@ -5,7 +5,6 @@ brew 'vim'
 brew 'curl'
 brew 'wget'
 brew 'phpunit'
-brew 'brew-cask'
 
 cask 'phpstorm'
 cask 'navicat-for-mysql'
