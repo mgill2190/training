@@ -29,6 +29,13 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
     $ git config --global credential.helper osxkeychain
 
+## Upgrade PHP version
+    
+   A fresh version of macOS Sierra, you get a PHP 5.6 installed. We want PHP 7.0 as default
+
+    $ brew unlink php56 
+    $ brew install php70
+
 ## Install Composer
 
     $ brew install composer
