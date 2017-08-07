@@ -31,9 +31,7 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
 ## Install Composer
 
-    $ curl -sS https://getcomposer.org/installer | php
-    $ sudo mv composer.phar /usr/local/bin/composer
-
+    $ brew install composer
 
 ## Node.js
 
