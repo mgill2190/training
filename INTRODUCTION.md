@@ -39,11 +39,11 @@ Some recommendations for learning
 
 Backend
 
-• [PHP Documentation (Language Reference)](http://php.net/manual/en/)
-• [Symfony2 Documentation](https://symfony.com/doc/current/index.html) (Getting Started, Databases (Doctrine ORM), Services, Forms, Event Dispatcher)
-• [Doctrine2 ORM](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html) Getting Started
-• [RESTful API’s with Symfony2](http://williamdurand.fr/2012/08/02/rest-apis-with-symfony2-the-right-way/)
-• [Symfony2 REST API (Best Practice)](http://welcometothebundle.com/symfony2-rest-api-the-best-2013-way) (We use FOSRestBundle, NelmioCorsBundle, Swagger to document the API)
+• [PHP Documentation (Language Reference)](http://php.net/manual/en/)  
+• [Symfony2 Documentation](https://symfony.com/doc/current/index.html) (Getting Started, Databases (Doctrine ORM), Services, Forms, Event Dispatcher)  
+• [Doctrine2 ORM](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html) Getting Started  
+• [RESTful API’s with Symfony2](http://williamdurand.fr/2012/08/02/rest-apis-with-symfony2-the-right-way/)  
+• [Symfony2 REST API (Best Practice)](http://welcometothebundle.com/symfony2-rest-api-the-best-2013-way) (We use FOSRestBundle, NelmioCorsBundle, Swagger to document the API)  
 
 Frontend
 
