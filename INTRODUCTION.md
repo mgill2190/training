@@ -1,8 +1,10 @@
 ## Introduction
 
-During the first week of being a new developer, its unfortunately back to basics as having a good understanding of the fundementals of programming languages allows us to tackling any issues early on.
+It important to have a good understanding of the basics and fundementals of programming languages. We would like you to run through the following courses:
 
-We would like you to run through the following courses:
+``
+Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals.
+``
 
 - **Basic Javascript**  
 [https://www.codecademy.com/courses/learn-javascript](https://www.codecademy.com/courses/learn-javascript)
