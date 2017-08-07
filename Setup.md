@@ -6,6 +6,21 @@
 xcode-select --install
 xcodebuild -license
 ```
+## Environment Profile
+
+Your environment profile is located in `~/.bash_profile`. Please edit and add the following
+
+```bash
+# Add local paths
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+# Bump the maximum number of file descriptors
+ulimit -n 10240
+# Improve NPM compile and install times
+export JOBS=max
+
+# Allow composer to run without any PHP memory limits
+alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
+```
 
 ## Install Homebrew
 [Homebrew](http://brew.sh/) is OS X's "missing" package manager.
@@ -98,22 +113,6 @@ brew cask install cyberduck
 brew cask install atom-beta
 brew cask install dropbox
 brew cask install filezilla
-```
-
-## Environment Profile
-
-Your environment profile is located in `~/.bash_profile`. Please edit and add the following
-
-```bash
-# Add local paths
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
-# Bump the maximum number of file descriptors
-ulimit -n 10240
-# Improve NPM compile and install times
-export JOBS=max
-
-# Allow composer to run without any PHP memory limits
-alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
 ```
 
 # Introduction Courses
