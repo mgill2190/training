@@ -138,7 +138,7 @@ brew cask install atom-beta
 https://www.codecademy.com/courses/learn-javascript
 
 ### Intermediate Javascript
-https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/2.
+https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1.
 
 ### Advanced Javascript (AngularJS)
 https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1#
