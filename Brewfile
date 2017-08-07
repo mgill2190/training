@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-cask' || true
 
-brew 'vim'
+brew 'vim -HEAD --env=std'
 brew 'curl'
 brew 'wget'
 brew 'phpunit'
