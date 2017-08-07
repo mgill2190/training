@@ -4,13 +4,16 @@
 
 ## Environment Profile
 
-Your environment profile is located in `~/.bash_profile`
+Your environment profile is located in `~/.bash_profile`. Add the following
 
-- `export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"` - ensure packages installed by homebrew are evaluated first
-- `ulimit -n 10240` - bumps the maximum number of file descriptors you can have open on your computer.
-  There's no purpose for the default limit, especially on SSDs.
-- `export JOBS=max` - tells `npm` to compile and install all your native addons in parallel and not sequentially.
-  This greatly increases installation times.
+```bash
+# Add paths
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+# Bump the maximum number of file descriptors
+ulimit -n 10240`
+# Improve NPM compile and install times
+export JOBS=max
+```
 
 ## XCode Command Line Tools
 
