@@ -19,7 +19,7 @@ https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1
 - **Basic PHP**  
 https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1
 
-Afterward we can get you on to the backlog on (Pivotal Tracker)[https://www.pivotaltracker.com] where you can be assigned to a weekly sprint, and work on a story. Once completed it will be pushed live!
+Afterward we can get you on to the backlog on [Pivotal Tracker](https://www.pivotaltracker.com) were you can be assigned to a weekly sprint, and work on a story. Once completed it will be pushed live!
 
 ## Resources
 
