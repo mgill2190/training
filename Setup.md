@@ -67,7 +67,7 @@ Node modules are installed locally in the `node_modules` folder of each project 
   npm install -g grunt-cli
 ```   
     
-## Install everything
+## Install Tools
 
 ```bash
 brew tap caskroom/cask
@@ -75,9 +75,7 @@ brew tap caskroom/homebrew-versions
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 brew install vim
-brew install git
 brew install curl
-brew cask install node
 brew cask install phpstorm
 brew cask install navicat-for-mysql
 brew cask install docker
