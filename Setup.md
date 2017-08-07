@@ -1,8 +1,6 @@
 # Development Setup #
 
-## XCode Command Line Tools
-
-Install XCode's CLI
+## Install XCode
 
 ```bash
 xcode-select --install
