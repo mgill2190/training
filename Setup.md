@@ -70,6 +70,9 @@ brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
 
 brew install vim
 brew install curl
+brew install wget
+brew install phpunit
+
 brew cask install phpstorm
 brew cask install navicat-for-mysql
 brew cask install docker
