@@ -39,7 +39,6 @@ Define your Git user (should be the same name and email you use for GitHub):
 
     $ git config --global user.name "Your Name Here"
     $ git config --global user.email "your_email@youremail.com"
-    # Enable colors in the output
     $ git config --global color.ui auto
 
 To push code to your GitHub repositories, its recommended to use HTTPS method (versus SSH). So you don't have to type your username and password everytime, enable Git password caching:
