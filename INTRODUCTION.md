@@ -5,19 +5,19 @@ During the first week of being a new developer, its unfortunately back to basics
 We would like you to run through the following courses:
 
 - **Basic Javascript**  
-https://www.codecademy.com/courses/learn-javascript
+[https://www.codecademy.com/courses/learn-javascript](https://www.codecademy.com/courses/learn-javascript)
 
 - **Intermediate Javascript**  
-https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/2.
+[https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1](https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1)
 
 - **Advanced Javascript (AngularJS)**  
-https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1#
+[https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1](https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1)
 
 - **Introduction to JQuery**  
-https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1
+[https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1](https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1)
 
 - **Basic PHP**  
-https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1
+[https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1](https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1)
 
 Afterward we can get you on to the backlog on [Pivotal Tracker](https://www.pivotaltracker.com) were you can be assigned to a weekly sprint, and work on a story. Once completed it will be pushed live!
 
