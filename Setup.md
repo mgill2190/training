@@ -11,6 +11,10 @@ xcodebuild -license
 Your environment profile is located in `~/.bash_profile`. Please edit and add the following
 
 ```bash
+
+# Terminal Colors
+export CLICOLOR=1
+
 # Add local paths
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 # Bump the maximum number of file descriptors
