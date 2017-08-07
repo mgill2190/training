@@ -48,7 +48,7 @@ You can full reference to development enviroment in [SETUP.md](SETUP.md)
 • [AngularJS Documentation](https://docs.angularjs.org)  
 • [AngularJS Phonecat Tutorial](https://docs.angularjs.org/tutorial)  
 • [Kendo UI AngularJS Integration](http://docs.telerik.com/kendo-ui/AngularJS/introduction)  
-• [Kendo UI Demos](http://demos.telerik.com/kendo-ui) (Browse the demo code, with particular attention to the AngularJS examples
+• [Kendo UI Demos](http://demos.telerik.com/kendo-ui) (Browse the demo code, with particular attention to the AngularJS examples  
 • [AngularJS Style Guide](https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md) Opinionated AngularJS style guide for teams, endorsed by Angular team.
 
 ## Github
