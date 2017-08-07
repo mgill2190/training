@@ -1,10 +1,6 @@
 ## Introduction
 
-It important to have a good understanding of the basics and fundementals of programming languages. We would like you to run through the following courses:
-
-``
-Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals.
-``
+It important to have a good understanding and consistently apply the basic fundamentals of programming. We would like you to run through the following courses:
 
 - **Basic Javascript**  
 [https://www.codecademy.com/courses/learn-javascript](https://www.codecademy.com/courses/learn-javascript)
