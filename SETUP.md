@@ -63,7 +63,7 @@ To push code to your GitHub repositories, its recommended to use HTTPS method (v
 
     $ brew unlink php56
     $ brew tap homebrew/php
-    $ brew install php70
+    $ brew install --build-from-source php70
 
 ## Install Composer
 
