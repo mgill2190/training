@@ -7,7 +7,7 @@
 Your environment profile is located in `~/.bash_profile`. Add the following
 
 ```bash
-# Add paths
+# Add local paths
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 # Bump the maximum number of file descriptors
 ulimit -n 10240`
