@@ -33,7 +33,7 @@ Our current stack is as follows
 
 We are currently using PHPStorm IDE (download the demo, you will get a full license when you start) you can follow some of their getting started video tutorials showcasing all the amazing things it does. Most of the dev team use MAMP PRO to easily manage Apache, MySQL and PHP on our development iMacs/macbooks.
 
-You can full reference to development enviroment setup in [SETUP.md](SETUP.md)
+You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
 ## Github
 
