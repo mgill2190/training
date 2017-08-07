@@ -4,19 +4,19 @@ During the first week of being a new developer, its unfortunately back to basics
 
 We would like you to run through the following courses:
 
-### Basic Javascript
+- Basic Javascript
 https://www.codecademy.com/courses/learn-javascript
 
-### Intermediate Javascript
+- Intermediate Javascript
 https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/2.
 
-### Advanced Javascript (AngularJS)
+- Advanced Javascript (AngularJS)
 https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1#
 
-### Introduction to JQuery
+- Introduction to JQuery
 https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1
 
-### Basic PHP
+- Basic PHP
 https://www.codecademy.com/courses/web-beginner-en-StaFQ/0/1
 
 ## Resources
