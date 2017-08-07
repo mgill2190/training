@@ -2,10 +2,10 @@
 
 ## Install XCode
 
-```bash
-xcode-select --install
-xcodebuild -license
-```
+
+    $ xcode-select --install
+    $ xcodebuild -license
+
 ## Environment Profile
 
 Your environment profile is located in `~/.bash_profile`.
@@ -40,9 +40,8 @@ Reload your profile
 ## Install Homebrew
 [Homebrew](http://brew.sh/) is OS X's "missing" package manager.
 
-```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
-```
+
+    $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null ; brew install caskroom/cask/brew-cask 2> /dev/null
 
 ## Install Git
 
@@ -55,7 +54,6 @@ Define your Git user (should be the same name and email you use for GitHub):
     $ git config --global color.ui auto
 
 To push code to your GitHub repositories, its recommended to use HTTPS method (versus SSH). So you don't have to type your username and password everytime, enable Git password caching:
-
 
     $ git config --global credential.helper osxkeychain
 
@@ -87,9 +85,7 @@ PATH=/usr/local/share/npm/bin:$PATH
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but worth installing [Grunt](http://gruntjs.com/) globally
 
-```bash
-  npm install -g grunt-cli
-```   
+    $ npm install -g grunt-cli
 
 ## Install MAMP PRO
 
