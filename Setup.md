@@ -24,6 +24,9 @@ export JOBS=max
 
 # Allow composer to run without any PHP memory limits
 alias composer='php -d "memory_limit=-1" /usr/local/bin/composer'
+
+# Install homebrew casks into applications
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 ```
 
 ## Install Homebrew
