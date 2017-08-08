@@ -75,4 +75,4 @@ Each employee has a training budget, which can be used to purchase books, course
 
 Every year we attend the PHP Northwest Conference which has inspiring content from speakers from all around the globe, valuable opportunities to network with the PHP community.
 
-We encourage developers to become certified, we will set aside time to revise and train for ZCE (Zend Certified Engineer) in PHP, or Symfony Certification.
+We encourage developers to become certified, we will set aside time to revise and train for [ZCE (Zend Certified Engineer)](http://www.zend.com/en/services/certification) or [Symfony Certification](https://sensiolabs.com/en/symfony/certification.html)
