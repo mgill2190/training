@@ -11,6 +11,10 @@ cask 'navicat-for-mysql'
 cask 'google-chrome'
 
 cask 'docker'
+cask 'virtualbox'
+cask 'vagrant'
+cask 'mamp'
+
 cask 'alfred'
 cask 'awscli'
 cask 'cyberduck'
