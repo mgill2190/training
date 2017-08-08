@@ -44,17 +44,16 @@ $scope.users = UserFactory.query();
 
 ```
 
-The beauty to ngResource is that it returns a $resource object, with the methods below
+The beauty to ngResource is that it returns a resource "class" object with methods for the default set of resource actions optionally extended with custom actions. The default set contains these actions
 
-```json
-{ 
-'get':    {method:'GET'},
-'save':   {method:'POST'},
-'query':  {method:'GET', isArray:true},
-'remove': {method:'DELETE'},
-'delete': {method:'DELETE'} 
-}
 ```
+{ 'get':    {method:'GET'},
+  'save':   {method:'POST'},
+  'query':  {method:'GET', isArray:true},
+  'remove': {method:'DELETE'},
+  'delete': {method:'DELETE'} };
+```
+Calling these methods invoke an $http with the specified http method, destination and parameters. When the data is returned from the server then the object is an instance of the resource class. The actions save, remove and delete are available on it as methods with the $ prefix. This allows you to easily perform CRUD operations (create, read, update, delete) on server-side data.
 
 You can always extend the factory for different usecases, ie: different HTTP methods or parameters. For example we now require a `update` method which will PUT to the RESTful API
 
