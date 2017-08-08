@@ -57,7 +57,7 @@ The beauty to ngResource is that it returns a $resource object, with the methods
 ```
 
 You can always extend the factory for different usecases, as we can change the factory to allow for different HTTP methods or parameters. For example we now require a `update` method which will PUT to the RESTful API
-```
+```json
 .factory('UserFactory', function ($resource) {
       var data = $resource('http://jsonplaceholder.typicode.com/users/:user', {user: '@user'}, {
       update:{
@@ -66,6 +66,6 @@ You can always extend the factory for different usecases, as we can change the f
       });
       return data;
   });
-...
+
 UserFactory.update({user: 1}, {name: 'Warrant Group', email: 'it@warrant-group.com'});
-``
+```
