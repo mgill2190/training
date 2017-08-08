@@ -68,3 +68,11 @@ For a typical development feature:
 - Create pull request on github for code review, or assistance. 
 - Once story has been accepted the feature branch can be merged into ``develop`` branch
 - Once ``develop`` is stable, we merge to ``master`` branch and CI (continous intergration) teamcity servers automatically deploy to production.
+
+## Training
+
+Each employee has a training budget, which can be used to purchase books, courses or material which will assist in your developments.
+
+Every year we attend the PHP Northwest Conference which has inspiring content from speakers from all around the globe, valuable opportunities to network with the PHP community.
+
+We encourage developers to become certified, we will set aside time to revise and train for ZCE (Zend Certified Engineer) in PHP, or Symfony Certification.
