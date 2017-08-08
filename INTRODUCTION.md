@@ -53,7 +53,7 @@ You can full reference to development enviroment in [SETUP.md](SETUP.md)
 
 ## Github
 
-In addition we use github.com and git for source code versioning, create a free github.com, try creating a repository, have a play committing file, creating branches or merging either on command line or through PHPStorm. 
+In addition we use [github.com](https://github.com/warrantgroup) and git for source code versioning, create a free github.com, try creating a repository, have a play committing file, creating branches or merging either on command line or through PHPStorm. 
 
 We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), which discusses feature branching, and creating pull requests .
 
