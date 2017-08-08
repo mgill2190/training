@@ -56,7 +56,7 @@ The beauty to ngResource is that it returns a $resource object, with the methods
 }
 ```
 
-You can always extend the factory for different usecases, as we can change the factory to allow for different HTTP methods or parameters. For example we now require a `update` method which will PUT to the RESTful API
+You can always extend the factory for different usecases, ie: different HTTP methods or parameters. For example we now require a `update` method which will PUT to the RESTful API
 
 ```js
 .factory('UserFactory', function ($resource) {
