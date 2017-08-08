@@ -9,19 +9,19 @@ For testing purposes we will use [JSONPlaceholder API](http://jsonplaceholder.ty
 A common way to interacting with RESTful API is using the AngularJS [$http](https://docs.angularjs.org/api/ng/service/$http) service
 
 ```js
-# Create a user
+//Create a user
 var postUser = $http.post('http://jsonplaceholder.typicode.com/users', {name: 'Warrant Group', email: 'it@warrant-group.com'})
 postUser.then(function(result) {
     $scope.user = result.data;
 });
 
-# Get a single user
+//Get a single user
 var getUser = $http.get('http://jsonplaceholder.typicode.com/users/1')
 getUsers.then(function(result) {
     $scope.oneUser = result.data;
 });
 
-# Get all users
+//Get all users
 var users = $http.get('http://jsonplaceholder.typicode.com/users')
 users.then(function(result) {
     $scope.users = result.data;
@@ -35,18 +35,18 @@ When compared to using the ngResource, the code is cleaner, decoupled and portab
     return $resource('http://jsonplaceholder.typicode.com/users/:user',{user: "@user"});
 });
 
-# Create a user
+//Create a user
 $scope.user = UserFactory.save({name: 'Warrant Group', email: 'it@warrant-group.com'});	
-# Get a single user
+//Get a single user
 $scope.oneUser = UserFactory.get({user: 1});
-# Get all users
+//Get all users
 $scope.users = UserFactory.query();
 
 ```
 
 The beauty to ngResource is that it returns a $resource object, with the methods below
 
-```
+```json
 { 
 'get':    {method:'GET'},
 'save':   {method:'POST'},
