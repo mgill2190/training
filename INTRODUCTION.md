@@ -57,12 +57,14 @@ In addition we use github.com and git for source code versioning, create a free 
 
 We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), which discusses feature branching, and creating pull requests .
 
-## Gitflow and Agile Methodology
+## Agile Methodology
 
-Our general approach
+We have standups in the morning with all members of the IT department (development and support), it good to know what team is working on, and any blockers can be raised early.
 
-- Pick a story from the sprint backlog
-- Create a new feature branch from ``develop`` branch
-- Create pull request for code review, or assistance. 
+For a typical development feature:
+
+- Pick a story from the sprint backlog on [Pivotal Tracker](https://www.pivotaltracker.com)
+- Create a new feature branch from ``develop`` branch, feature branch must include the story ID
+- Create pull request on github for code review, or assistance. 
 - Once story has been accepted the feature branch can be merged into ``develop`` branch
 - Once ``develop`` is stable, we merge to ``master`` branch and CI (continous intergration) teamcity servers automatically deploy to production.
