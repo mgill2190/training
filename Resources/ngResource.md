@@ -1,6 +1,6 @@
 ## ngResource ##
 
-When working with a Restful API in Angular, you need to make a lot of calls most of the time. Using the default $http provider can unnecessarily inflate code. ngResource hides the complexity of interacting of RESTful API's simplicity of ngResource to aid in smaller services and cleaner code. As it returns a resource object that has action methods which provide high-level behaviors without the need to interact with the low level $http service.
+When working with a Restful API in Angular, the application will require a number of calls to various endpoints. Using the default $http provider can unnecessarily inflate code. ngResource hides the complexity of interacting of RESTful API's as it returns a $resource object that has action methods which provide high-level behaviors without the need to interact with the low level $http service. This results in cleaner code, and smaller services.
 
 For testing purposes we will use [JSONPlaceholder API](http://jsonplaceholder.typicode.com/) (dummy user data)
 
@@ -9,8 +9,21 @@ For testing purposes we will use [JSONPlaceholder API](http://jsonplaceholder.ty
 A common way to interacting with RESTful API is using the AngularJS [$http](https://docs.angularjs.org/api/ng/service/$http) service
 
 ```js
-var postUsers = $http.get('http://jsonplaceholder.typicode.com/users/')
-postUsers.then(function(result) {
+# Create a user
+var postUser = $http.post('http://jsonplaceholder.typicode.com/users', {name: 'Warrant Group', email: 'it@warrant-group.com'})
+postUser.then(function(result) {
+    $scope.user = result.data;
+});
+
+# Get a single user
+var getUser = $http.get('http://jsonplaceholder.typicode.com/users/1')
+getUsers.then(function(result) {
+    $scope.oneUser = result.data;
+});
+
+# Get all users
+var users = $http.get('http://jsonplaceholder.typicode.com/users')
+users.then(function(result) {
     $scope.users = result.data;
 });
 ```
@@ -22,8 +35,13 @@ When compared to using the ngResource, the code is cleaner, decoupled and portab
     return $resource('http://jsonplaceholder.typicode.com/users/:user',{user: "@user"});
 });
 
-	
-$scope.users = UserService.query();
+# Create a user
+$scope.user = UserFactory.save({name: 'Warrant Group', email: 'it@warrant-group.com'});	
+# Get a single user
+$scope.oneUser = UserService.get({user: 1});
+# Get all users
+$scope.users = UserFactory.query();
+
 ```
 
 The beauty to ngResource is that it returns a $resource object, with the methods below
@@ -36,16 +54,6 @@ The beauty to ngResource is that it returns a $resource object, with the methods
 'remove': {method:'DELETE'},
 'delete': {method:'DELETE'} 
 };
-```
-
-Get a single user
-```	
-UserFactory.get({user: 1});
-```
-
-Create a new user
-```
-UserFactory.save({name: 'Warrant Group', email: 'it@warrant-group.com'});
 ```
 
 You can always extend the factory for different usecases, as we can change the factory to allow for different HTTP methods or parameters. For example we now require a `update` method which will PUT to the RESTful API
