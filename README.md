@@ -10,4 +10,4 @@
 
 
 ## Resources
- * [ngResource](Resources/ngResource.md) A summary over ngResource over low-level $http service.
+ * [ngResource](Resources/ngResource.md) A summary on using ngResource over low-level $http service.
