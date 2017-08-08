@@ -7,3 +7,7 @@
 
 * [Development setup](SETUP.md) which guides installing the tools, and customizations the teams have made to their environments.  
 * [Programming Introduction](INTRODUCTION.md) which gives a brief overview on our environment, and details some basic courses to complete before working on production systems
+
+
+## Resources
+ * [ngResource](Resources/ngResource.md) A summary over ngResource over low-level $http service.
