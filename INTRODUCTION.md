@@ -8,8 +8,8 @@ It important to have a good understanding and consistently apply the basic funda
 - **Intermediate Javascript**  
 [https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1](https://www.codecademy.com/en/courses/javascript-intermediate-en-2nQQb/0/1)
 
-- **Advanced Javascript (AngularJS)**  
-[https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1](https://www.codecademy.com/courses/javascript-advanced-en-2hJ3J/0/1)
+- **Learning AngularJS**  
+[https://www.codecademy.com/learn/learn-angularjs](https://www.codecademy.com/learn/learn-angularjs)
 
 - **Introduction to JQuery**  
 [https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1](https://www.codecademy.com/courses/web-beginner-en-bay3D/0/1)
