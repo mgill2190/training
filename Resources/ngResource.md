@@ -38,7 +38,7 @@ When compared to using the ngResource, the code is cleaner, decoupled and portab
 # Create a user
 $scope.user = UserFactory.save({name: 'Warrant Group', email: 'it@warrant-group.com'});	
 # Get a single user
-$scope.oneUser = UserService.get({user: 1});
+$scope.oneUser = UserFactory.get({user: 1});
 # Get all users
 $scope.users = UserFactory.query();
 
