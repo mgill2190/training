@@ -57,6 +57,8 @@ In addition we use github.com and git for source code versioning, create a free 
 
 We follow the [GitHub flow branching model](https://guides.github.com/introduction/flow), which discusses feature branching, and creating pull requests .
 
+## Gitflow and Agile Methodology
+
 Our general approach
 
 - Pick a story from the sprint backlog
