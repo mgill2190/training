@@ -1,4 +1,4 @@
-## Introduction
+## Programming Introduction
 
 It important to have a good understanding and consistently apply the basic fundamentals of programming. We would like you to run through the following courses:
 
