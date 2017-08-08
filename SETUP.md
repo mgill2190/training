@@ -123,8 +123,12 @@ brew install phpunit
 
 brew cask install phpstorm
 brew cask install navicat-for-mysql
-brew cask install docker
 brew cask install google-chrome
+
+brew cask install docker
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install mamp
 
 brew cask install alfred
 brew cask install awscli
