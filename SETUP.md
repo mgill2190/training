@@ -86,6 +86,7 @@ PATH=/usr/local/share/npm/bin:$PATH
 
 Node modules are installed locally in the `node_modules` folder of each project by default, but worth installing [Grunt](http://gruntjs.com/) globally
 
+    $ npm install -g bower
     $ npm install -g grunt-cli
 
 ## Install MAMP PRO
