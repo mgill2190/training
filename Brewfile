@@ -16,6 +16,6 @@ cask 'vagrant'
 cask 'mamp'
 
 cask 'alfred'
-cask 'awscli'
+brew 'awscli'
 cask 'cyberduck'
-cask 'atom-beta'
+cask 'atom'
